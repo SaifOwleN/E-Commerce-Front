@@ -1,12 +1,18 @@
 const NavBar = () => {
   return (
     <div className="navbar bg-white text-black p-4">
-      <div className="flex-1 w-2/12 ml-32">
+      <div className="navbar-start ">
         <p className="text-2xl ">XDD</p>
       </div>
-      <div className="flex items-center">
-        <p className="pl-40">xdd</p>
-        <p className="pl-40">xdd</p>
+      <div className="navbar-center justify-between w-96">
+        <p className="">xdd</p>
+        <p className="">xdd</p>
+        <p className="">xdd</p>
+      </div>
+      <div className="navbar-end ">
+        <input></input>
+        <p className="pl-">xdd</p>
+        <p className="pl-">xdd</p>
       </div>
     </div>
   )
